@@ -17,6 +17,21 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Exercici nº13.");
+        Console.WriteLine("Escriu la teva data en format numero");
+        var num = Console.ReadLine();
+        if (num != null)
+        {
+            string dia = num.Substring(0, 2);
+            string mes = num.Substring(2, 2);
+            string any = num.Substring(4, 4);
+            Console.WriteLine($"La data es = {dia}/{mes}/{any}");
+        }
+        if (num == null)
+        {
+            Console.WriteLine("No operable");
+        }
+        Console.WriteLine("Fin.");
     }
 }
+

@@ -1,0 +1,15 @@
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\bin\Debug\net9.0\exercici11.exe
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\bin\Debug\net9.0\exercici11.deps.json
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\bin\Debug\net9.0\exercici11.runtimeconfig.json
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\bin\Debug\net9.0\exercici11.dll
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\bin\Debug\net9.0\exercici11.pdb
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\exercici11.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\exercici11.AssemblyInfoInputs.cache
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\exercici11.AssemblyInfo.cs
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\exercici11.csproj.CoreCompileInputs.cache
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\exercici11.sourcelink.json
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\exercici11.dll
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\refint\exercici11.dll
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\exercici11.pdb
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\exercici11.genruntimeconfig.cache
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici11\obj\Debug\net9.0\ref\exercici11.dll

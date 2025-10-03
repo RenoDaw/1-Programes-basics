@@ -16,6 +16,30 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Erxercici nº. 16.");
+
+        int Nota_p_num;
+        Console.Write("Nota de pràctiques: ");
+        var Nota_p = Console.ReadLine();
+        int Nota_e_num;
+        Console.Write("Nota de l'examen: ");
+        var Nota_e = Console.ReadLine();
+        bool ok_p = int.TryParse(Nota_p, out Nota_p_num);
+        bool ok_e = int.TryParse(Nota_e, out Nota_e_num);
+        bool ok = ok_p && ok_e;
+        if (!ok)
+        {
+            // Ha fallat
+            Console.WriteLine("No son notes validas ...necesito numeros");
+        }
+        if (ok)
+        {
+            double Nota_p_num_deci = Nota_p_num;
+            double Nota_e_num_deci = Nota_e_num;
+            double resul = (Nota_p_num_deci + Nota_e_num_deci) / 2.0;
+            int Coefi = (int) resul;
+            Console.WriteLine($"La nota final es {resul} o sigui {Coefi} ");
+        }
+        Console.WriteLine("Fi.");
     }
 }

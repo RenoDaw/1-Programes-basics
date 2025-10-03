@@ -8,6 +8,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Exercici nº9");
+        var Nom = "Pere";
+        var Any_naixe = 1982;
+        Console.WriteLine($"Nom {Nom} i Any de naixement {Any_naixe} ");
+        string contrasenya = string.Concat(Nom, Any_naixe);
+        Console.WriteLine($"La contrasenya es {contrasenya} ");
     }
 }

@@ -7,6 +7,10 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Exercici nº6.");
+        const double costat = 3.5;
+        Console.WriteLine($"Mida del costat del quadrat {costat}");
+        double perimetre = costat * 4;
+        Console.WriteLine($"El perimetre {perimetre}");
     }
 }

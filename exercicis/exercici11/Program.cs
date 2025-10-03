@@ -5,6 +5,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Exercici nº11.");
+        var nom_us = "jperarnau";
+        var domini = "cendrassos.net";
+        Console.WriteLine($"Dues variables {nom_us}, {domini}");
+        string email = string.Concat(nom_us, "@", domini);
+        Console.WriteLine($"L'adreça de correu electrònic es {email}");
     }
 }

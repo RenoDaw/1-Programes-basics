@@ -10,7 +10,13 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Exercici Nº4.");
+        Console.WriteLine("Quan Val el que vols comprar en EUROS € ?");
+        var text_preu = Console.ReadLine();
+        int preu = Convert.ToInt32(text_preu);
+        double valor = preu * 166.386;
+        Console.WriteLine("El preu en Pesstetes es = "+valor);
+
         
     }
 }

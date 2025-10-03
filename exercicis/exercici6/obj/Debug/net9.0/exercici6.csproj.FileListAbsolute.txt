@@ -1,0 +1,15 @@
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\exercici6.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\exercici6.AssemblyInfoInputs.cache
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\exercici6.AssemblyInfo.cs
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\exercici6.csproj.CoreCompileInputs.cache
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\exercici6.sourcelink.json
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\bin\Debug\net9.0\exercici6.exe
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\bin\Debug\net9.0\exercici6.deps.json
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\bin\Debug\net9.0\exercici6.runtimeconfig.json
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\bin\Debug\net9.0\exercici6.dll
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\bin\Debug\net9.0\exercici6.pdb
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\exercici6.dll
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\refint\exercici6.dll
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\exercici6.pdb
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\exercici6.genruntimeconfig.cache
+C:\DevOp\local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici6\obj\Debug\net9.0\ref\exercici6.dll
