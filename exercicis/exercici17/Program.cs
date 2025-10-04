@@ -16,32 +16,23 @@ class Program
     static void Main(string[] args)
     {
         Console.WriteLine("Exertcici nº. 17.");
-        //string num;
-        Console.Write("Número lleig: ");
+        Console.Write("Escriu Un numero amb decimals: ");
         var num_read = Console.ReadLine();
         if (num_read != null)
-        { 
-            int jk = num_read.IndexOf(",");
-            string resultado = 
-            Console.WriteLine($" rer {jk}");
-        }
-        if (num_read == null)
         {
-            // Ha fallat
-            Console.WriteLine("No tengo datos.");
+            int comaIndex = num_read.IndexOf(",");
+            int totalLlargada = num_read.Length;
+            if (-1 != comaIndex){
+                int midaLlargada = totalLlargada - comaIndex;
+                string reste = num_read.Substring(comaIndex, midaLlargada);
+                Console.WriteLine($"Nombre meravellós: 0{reste}");
+            }
+            if (-1 == comaIndex)
+            {
+                // Ha fallat.
+                Console.WriteLine("No procesable.");
+            }
         }
         Console.WriteLine("Fi.");
-        
-            //double result = num % 1;
-        //int retorn = (int)num;
-        //float retorn2 = (float) retorn;
-        //float result = num - retorn2;
-        //double result2 = Math.Round(result);
-        //Console.WriteLine($"Nombre meravellós: {result} n {num}");
-            
-
-        
-        Console.WriteLine("Fi.");
-
     }
 }

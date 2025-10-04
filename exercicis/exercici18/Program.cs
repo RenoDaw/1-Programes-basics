@@ -17,6 +17,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        Console.WriteLine("Exercici nº. 18.");
+        Console.Write("Escriu la hora Actual: ");
+        var horaActuaLlegir = Console.ReadLine();
+        if (horaActuaLlegir != null)
+        {
+            int numHoraActual = int.Parse(horaActuaLlegir);
+            int increHoraActual = numHoraActual + 3;
+            int restaAmPm = increHoraActual % 12;
+            Console.WriteLine($"D'aqui a 3 hores seran les {restaAmPm}"); 
+        }
+        Console.WriteLine("Fi.");
     }
 }

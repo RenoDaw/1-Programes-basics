@@ -1,0 +1,15 @@
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\exercici19.GeneratedMSBuildEditorConfig.editorconfig
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\exercici19.AssemblyInfoInputs.cache
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\exercici19.AssemblyInfo.cs
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\exercici19.csproj.CoreCompileInputs.cache
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\exercici19.sourcelink.json
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\bin\Debug\net9.0\exercici19.exe
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\bin\Debug\net9.0\exercici19.deps.json
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\bin\Debug\net9.0\exercici19.runtimeconfig.json
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\bin\Debug\net9.0\exercici19.dll
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\bin\Debug\net9.0\exercici19.pdb
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\exercici19.dll
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\refint\exercici19.dll
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\exercici19.pdb
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\exercici19.genruntimeconfig.cache
+C:\DevOp\Local\Prog_Carol\Practica\1-Programes-basics\exercicis\exercici19\obj\Debug\net9.0\ref\exercici19.dll
