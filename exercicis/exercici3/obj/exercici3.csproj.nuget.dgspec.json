@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\DevOp\\Local\\Prog_Carol\\Practica\\1-Programes-basics\\exercicis\\exercici3\\exercici3.csproj": {}
+    "C:\\DevOp\\local\\Prog_Coral\\Practica\\1-Programes-basics\\exercicis\\exercici3\\exercici3.csproj": {}
   },
   "projects": {
-    "C:\\DevOp\\Local\\Prog_Carol\\Practica\\1-Programes-basics\\exercicis\\exercici3\\exercici3.csproj": {
+    "C:\\DevOp\\local\\Prog_Coral\\Practica\\1-Programes-basics\\exercicis\\exercici3\\exercici3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\DevOp\\Local\\Prog_Carol\\Practica\\1-Programes-basics\\exercicis\\exercici3\\exercici3.csproj",
+        "projectUniqueName": "C:\\DevOp\\local\\Prog_Coral\\Practica\\1-Programes-basics\\exercicis\\exercici3\\exercici3.csproj",
         "projectName": "exercici3",
-        "projectPath": "C:\\DevOp\\Local\\Prog_Carol\\Practica\\1-Programes-basics\\exercicis\\exercici3\\exercici3.csproj",
+        "projectPath": "C:\\DevOp\\local\\Prog_Coral\\Practica\\1-Programes-basics\\exercicis\\exercici3\\exercici3.csproj",
         "packagesPath": "C:\\Users\\jpera_324qw1d\\.nuget\\packages\\",
-        "outputPath": "C:\\DevOp\\Local\\Prog_Carol\\Practica\\1-Programes-basics\\exercicis\\exercici3\\obj\\",
+        "outputPath": "C:\\DevOp\\local\\Prog_Coral\\Practica\\1-Programes-basics\\exercicis\\exercici3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jpera_324qw1d\\AppData\\Roaming\\NuGet\\NuGet.Config"

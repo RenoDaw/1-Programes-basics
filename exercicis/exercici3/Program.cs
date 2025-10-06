@@ -6,13 +6,16 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine();
+        Console.WriteLine("Exercici nº3:");
+        Console.WriteLine();
         Console.WriteLine("Producte a mostra");
         var producte = "Cotxe";
         string nom_producte = "Audi";
         int preu = 30000;
         bool stock = false;
-        Console.Write(producte + " " + nom_producte + " " + preu + " " + stock);
-        
-        
+        Console.WriteLine(producte + " " + nom_producte + " " + preu + " " + stock);
+        Console.WriteLine();
+        Console.WriteLine("Fi.");
     }
 }

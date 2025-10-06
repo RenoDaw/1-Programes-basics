@@ -8,16 +8,20 @@ class Program
 {
     static void Main(string[] args)
     {
+        Console.WriteLine();
         Console.WriteLine("Exercici nº2:");
-        Console.WriteLine("Entra el nom del carrer:");
-        var nom = Console.ReadLine(); 
-        Console.WriteLine("Entra el numero carrer:");
+        Console.WriteLine();
+        Console.Write("Entra el nom del carrer: ");
+        var nom = Console.ReadLine();
+        Console.Write("Entra el numero carrer: ");
         var numero = Console.ReadLine();
-        Console.WriteLine("Entra el codic postal:");
+        Console.Write("Entra el codic postal: ");
         var codic = Console.ReadLine();
-        Console.WriteLine("Entra nom de la població:");
+        Console.Write("Entra nom de la població: ");
         var poblacio = Console.ReadLine();
+        Console.WriteLine();
         Console.WriteLine($"El carrer {nom}, amb numero {numero}, C.P.: {codic}, a {poblacio}.");
-
+        Console.WriteLine();
+        Console.WriteLine("Fi.");
     }
 }

@@ -18,12 +18,16 @@ class Program
 {
     static void Main(string[] args)
     {
-        Console.WriteLine("Resolucio de Exerci nº1.");
-        Console.WriteLine("Entra el nom:");
-        var nom = Console.ReadLine(); 
-        Console.WriteLine("Entra el cognom:");
+        Console.WriteLine();
+        Console.WriteLine("Resolució de Exercici nº1.");
+        Console.WriteLine();
+        Console.Write("Entra el nom: ");
+        var nom = Console.ReadLine();
+        Console.Write("Entra el cognom: ");
         var cognom = Console.ReadLine();
-        Console.WriteLine("Em dic " + cognom +", "+ nom+" "+cognom);
-
+        Console.WriteLine();
+        Console.WriteLine("Em dic " + cognom + ", " + nom + " " + cognom);
+        Console.WriteLine();
+        Console.WriteLine("Fi.");
     }
 }
