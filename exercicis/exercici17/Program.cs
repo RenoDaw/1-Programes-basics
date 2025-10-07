@@ -14,8 +14,10 @@ Nombre meravellós: 0,5
 class Program
 {
     static void Main(string[] args)
-    {
+    {   
+        Console.WriteLine();
         Console.WriteLine("Exertcici nº. 17.");
+        Console.WriteLine();
         Console.Write("Escriu Un numero amb decimals: ");
         var num_read = Console.ReadLine();
         if (num_read != null)
@@ -25,46 +27,56 @@ class Program
             if (-1 != comaIndex)
             {
                 int midaLlargada = totalLlargada - comaIndex;
-                string reste = num_read.Substring(comaIndex, midaLlargada);
-                Console.WriteLine($"Nombre meravellós: 0{reste}");
+                string partDecimal = num_read.Substring(comaIndex, midaLlargada);
+                Console.WriteLine($"Nombre meravellós: 0{partDecimal}");
 
                 Console.WriteLine();
                 Console.WriteLine("Un altra solucio:");
+                Console.WriteLine("Segona metode ");
+                Console.WriteLine("amb double.Parse(String) Convierte una representacio en cadena de texto en su valor numerico");
+                Console.WriteLine("amb (int) Conversión Explícita o Cast (Moldeado)");
+                
                 double numero = double.Parse(num_read);
-                int resultado_nomia = (int)numero;
-                double numEnter = resultado_nomia;
-                double reste1 = numero - numEnter;
-                Console.WriteLine($"Nombre meravellós: {reste1}");
+                int parteEnteraB = (int)numero;
+                double partEnteraFormat = parteEnteraB;
+                double partDecimalB = numero - partEnteraFormat;
+                Console.WriteLine($"Nombre meravellós: {partDecimalB} format numero.");
                 Console.WriteLine();
-                Console.WriteLine("2");
-                Console.WriteLine("Un altra solucio:");
-                double nominador2 = Math.Truncate(numero);
-                double nominador3 = Math.Floor(numero);
-                double denominador2 = numero - nominador2;
-                double denominador3 = numero - nominador3;
-                 Console.WriteLine(denominador2);
-                Console.WriteLine(denominador3);
-                int midaLlargadaT = (totalLlargada - comaIndex) - 1;
-                string numDecimals = midaLlargadaT.ToString();
-                string fNumDecimals = $"F{numDecimals}";
-                // Console.WriteLine(fNumDecimals);
-                Console.WriteLine($"Nombre meravellós: {denominador2.ToString(fNumDecimals)}");
-                Console.WriteLine($"Nombre meravellós: {denominador3.ToString(fNumDecimals)}");
-
+                int midaLlargadaTB = (totalLlargada - comaIndex) - 1;
+                string numDecimalsB = midaLlargadaTB.ToString();
+                string fNumDecimalsB = $"F{numDecimalsB}";
+                Console.WriteLine($"Nombre meravellós: {partDecimalB.ToString(fNumDecimalsB)} format String");
+ 
 
                 Console.WriteLine();
-                Console.WriteLine("3");
                 Console.WriteLine("Un altra solucio:");
+                Console.WriteLine("Tercer Metode");
+                Console.WriteLine("amb Math.Truncante  Es una función matemática. Devuelve la parte entera, ");
+                Console.WriteLine("pero mantiene el tipo de dato original (double o decimal).");
+                Console.WriteLine();
+                double parteEntereC = Math.Truncate(numero);
+                double partDecimalC = numero - parteEntereC;
+                Console.WriteLine($"Nombre meravellós: {partDecimalC} format numero.");
+                Console.WriteLine();
+                int midaLlargadaTC = (totalLlargada - comaIndex) - 1;
+                string numDecimalsC = midaLlargadaTC.ToString();
+                string fNumDecimalsC = $"F{numDecimalsC}";
+                Console.WriteLine($"Nombre meravellós: {partDecimalC.ToString(fNumDecimalsC)}");
+               
 
-                int midaLlargada2 = (totalLlargada - comaIndex) - 1;
-                // Console.WriteLine(midaLlargada2);
-                double resultado = numero * Math.Pow(10, midaLlargada2);
-                // Console.WriteLine(resultado);
-                double residuo = resultado % Math.Pow(10, midaLlargada2);
-                int midaLlargada3 = (totalLlargada - comaIndex)-1;
-                double resultat3 = residuo / Math.Pow(10, midaLlargada3);
-                // Console.WriteLine(residuo);
-                Console.WriteLine($"Nombre meravellós: {resultat3}");
+                Console.WriteLine();
+                
+                Console.WriteLine("Un altra solucio:");
+                Console.WriteLine("Quart Metode");
+                Console.WriteLine("amb amb Poencia de 10. Math.Pow  Es una función matemática. ");
+                Console.WriteLine("C# s'utilitza per calcular la potència d'un nombre.");
+                
+                int numeroDecimalsD = (totalLlargada - comaIndex) - 1;
+                double numeroEnter = numero * Math.Pow(10, numeroDecimalsD);
+                double residu = numeroEnter % Math.Pow(10, numeroDecimalsD);
+                double partDecimalD = residu / Math.Pow(10, numeroDecimalsD);
+                Console.WriteLine();
+                Console.WriteLine($"Nombre meravellós: {partDecimalD}");
 
 
 
